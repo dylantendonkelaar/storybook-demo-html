@@ -42,7 +42,7 @@ export const Default: Story = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/5aPCaC6B8bSCmvpf0wal7X/Untitled?node-id=0-1&t=16fQWYHsdoPSU19b-1",
+      url: "https://www.figma.com/design/5aPCaC6B8bSCmvpf0wal7X/Untitled?node-id=1-2&t=EJDSGEEVglzbUbLS-1",
     },
   },
 };
