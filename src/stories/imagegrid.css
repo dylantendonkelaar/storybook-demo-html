@@ -1,0 +1,174 @@
+.gallery__col {
+    position: relative
+}
+
+.gallery__text {
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    background: linear-gradient(117deg,#ffffff26 6.46%,#fff0 100%,#ffffff1a 0);
+    border-radius: .4rem;
+    left: 10%;
+    padding: 4rem;
+    position: absolute;
+    top: 25%;
+    width: 32rem;
+    z-index: 999
+}
+
+.gallery__gallery {
+    display: grid;
+    position: relative;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem
+}
+
+.section--gallery-compact .gallery__gallery {
+    grid-template-columns: repeat(4, 1fr)!important;
+    grid-template-rows: repeat(2, 1fr)!important;
+}
+
+.section--gallery-compact .gallery__gallery .gallery__img {
+    grid-column: span 1!important;
+    grid-row: span 1!important;
+}
+
+.gallery__gallery .gallery__img {
+    border-radius: .4rem;
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%
+}
+
+.gallery__gallery .gallery__img img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    width: 100%
+}
+
+.gallery__gallery .gallery__content {
+    padding-right: 8rem
+}
+
+.gallery--mobile .gallery__content {
+    margin-bottom: 2.4rem
+}
+
+.section--gallery-one .gallery__gallery {
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr)
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:first-child {
+    grid-area: 1/1/2/2
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(2) {
+    grid-area: 2/1/3/3
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(3) {
+    grid-area: 1/3/2/4
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(4) {
+    grid-area: 1/4/2/5
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(5) {
+    grid-area: 2/5/3/6
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(6) {
+    grid-area: 2/6/3/7
+}
+
+.section--gallery-one .gallery__gallery .gallery__img:nth-child(7) {
+    grid-area: 1/6/2/7
+}
+
+.section--gallery-two .gallery__gallery {
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr)
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(3) {
+    grid-area: 2/1/3/2
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(7) {
+    grid-area: 3/1/4/2
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(4) {
+    grid-area: 2/2/3/3
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(8) {
+    grid-area: 3/2/4/3
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(9) {
+    grid-area: 3/3/4/4
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(5) {
+    grid-area: 2/4/3/5
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(10) {
+    grid-area: 3/5/4/6
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(6) {
+    grid-area: 2/6/3/7
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:nth-child(2) {
+    grid-area: 1/6/2/7
+}
+
+.section--gallery-two .gallery__gallery .gallery__img:first-child {
+    grid-area: 1/5/2/6
+}
+
+.section--gallery-two .gallery__gallery .gallery__content {
+    grid-area: 1/1/2/4
+}
+
+.section--gallery-three .gallery__gallery {
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr)
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:first-child {
+    grid-area: 1/1/2/2
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(2) {
+    grid-area: 2/1/3/2
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(3) {
+    grid-area: 1/2/2/3
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(4) {
+    grid-area: 2/4/3/5
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(5) {
+    grid-area: 1/5/2/6
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(6) {
+    grid-area: 1/6/2/7
+}
+
+.section--gallery-three .gallery__gallery .gallery__img:nth-child(7) {
+    grid-area: 2/6/3/7
+}
