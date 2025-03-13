@@ -102,18 +102,6 @@ export const Stimmt: Story = {
 	  isCompact: false,
 	  teamMembers: [
 		{
-			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Demi-profile.jpg',
-			title: 'Demi',
-			employeeFunction: 'Project Manager',
-			showInOverview: true,
-		},
-		{
-			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Tom-profile.jpg',
-			title: 'Tom',
-			employeeFunction: 'Developer',
-			showInOverview: true,
-		},
-		{
 			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Bram-profile.jpg',
 			title: 'Bram',
 			employeeFunction: 'Designer',
@@ -123,6 +111,18 @@ export const Stimmt: Story = {
 			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Thorsten-profile.jpg',
 			title: 'Naam medewerker',
 			employeeFunction: 'Rol',
+			showInOverview: true,
+		},
+		{
+			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Demi-profile.jpg',
+			title: 'Demi',
+			employeeFunction: 'Project Manager',
+			showInOverview: true,
+		},
+		{
+			employeeImage: 'https://drlrinu1crs5k.cloudfront.net/_1024xAUTO_crop_center-center_none/Tom-profile.jpg',
+			title: 'Tom',
+			employeeFunction: 'Developer',
 			showInOverview: true,
 		},
 		{
